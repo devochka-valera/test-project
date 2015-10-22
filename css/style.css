@@ -1,3 +1,13 @@
 h1{
     color:darkblue;
 }
+
+.item-space{
+    background: url(/images/space-back.png);
+}
+
+.camera-logo{
+    height: 55px;
+    width: 53px;
+    background: url(/images/logo-main.png);
+}
