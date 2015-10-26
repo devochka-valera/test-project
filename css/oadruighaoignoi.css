@@ -1,52 +1,48 @@
-body,ul {
+body,
+ul {
     margin: 0px;
 }
 .container {
-    width:auto;
+    width: auto;
 }
-.header-container{
+.header-container {
     background: url(images/Livello-1.png);
     height: 745px;
-    background-size:cover;
+    background-size: cover;
 }
-
-li{
+li {
     display: inline-block;
-    list-style:none;
+    list-style: none;
     margin: 0;
-} 
-.header li{
- padding:10px 33px;
-  
-  }
-
-.header .icon-container{
-padding-top:0px;
-  
 }
-
+.header li {
+    padding: 10px 33px;
+}
+.header .icon-container {
+    padding-top: 0px;
+}
 .header a {
     text-decoration: none;
-    color:#ffffff;
+    color: #ffffff;
     font-family: 'Varela Round', sans-serif;
     font-size: 16px;
     font-weight: 700;
-    text-transform:uppercase;
-  }
-
+    text-transform: uppercase;
+}
 .header {
     text-align: center;
-    color:#ffffff;
+    color: #ffffff;
     font-family: 'Varela Round', sans-serif;
-    text-transform:uppercase;
+    text-transform: uppercase;
 }
-.header .sm-text{
-    text-transform: lowercase;font-size: 36px;
+.header .sm-text {
+    text-transform: lowercase;
+    font-size: 36px;
     font-size: 16px;
     font-weight: 500;
     margin: 0px;
 }
-.header span{
+.header span {
     display: inline-block;
     font-size: 36px;
     font-weight: 700;
@@ -57,72 +53,64 @@ padding-top:0px;
     display: block;
     background-color: #16a085;
     border-radius: 3px;
-    border:none;
-    color:#ffffff;
+    border: none;
+    color: #ffffff;
     font-family: 'Varela Round', sans-serif;
     font-size: 12px;
-    text-transform:uppercase;
-    padding:18px 42px;
+    text-transform: uppercase;
+    padding: 18px 42px;
     margin: 0 auto;
 }
 .icon {
     display: inline-block;
     vertical-align: middle;
 }
-.icon-photo{
-    background: url(images/icon-photo.png) ;
+.icon-photo {
+    background: url(images/icon-photo.png);
     height: 55px;
     width: 53px;
     background-repeat: no-repeat;
     padding-bottom: 20px;
-    }
-
-.header ul{
- padding-top: 40px;
 }
-.header .icon-tw{
+.header ul {
+    padding-top: 40px;
+}
+.header .icon-tw {
     background: url(images/icon-twitter.png);
     background-repeat: no-repeat;
     height: 20px;
     width: 23px;
 }
-.header .icon-flicker{
+.header .icon-flicker {
     background: url(images/icon-flicker.png);
     background-repeat: no-repeat;
     height: 20px;
     width: 23px;
-  }
-
-.header .icon-web{
+}
+.header .icon-web {
     background: url(images/icon-web.png);
     background-repeat: no-repeat;
     height: 21px;
     width: 20px;
-    
-        }
-
-.header .social-button>li {
- padding: 0px 8px;   
 }
-
-.header .social-button{
-  padding-left: 0px;
+.header .social-button>li {
+    padding: 0px 8px;
+}
+.header .social-button {
+    padding-left: 0px;
     padding-top: 222px;
 }
-
 .second-container {
-    background-color: #f5f6f7;
     height: 494px;
-    background:
-        url(images/second-iPhone.png) 501px 20px,
-        url(images/second-hand.png) 214px 59px;
+    background: url(images/second-hand.png) 65% 59px;
+    background-color: #f5f6f7;
     background-repeat: no-repeat;
 }
 .heading {
     font-size: 18px;
     color: #16a085;
     width: 376px;
-    margin:0px;
+    margin: 0px;
     padding-left: 129px;
     font-family: 'Varela Round', sans-serif;
     text-transform: uppercase;
@@ -130,16 +118,123 @@ padding-top:0px;
     letter-spacing: 3px;
     padding-bottom: 49px;
 }
-.second-container .second-description{
+.description {
     display: inline-block;
     font-size: 12px;
     color: #373737;
     font-family: 'Varela Round', sans-serif;
-    padding-left: 128px;
     width: 428px;
-    
-   }
-.second-container .btn-left{
+    white-space: pre;
+}
+.second-description {
+    padding-left: 128px;
+    display: inline-block;
+}
+.second-container .btn-left {
     margin-left: 129px;
     margin-top: 47px;
+}
+.third-container {
+    background-color: #ffffff;
+    height: 558px;
+}
+.slider-container {
+    background: url(images/Shape.png);
+    background-repeat: no-repeat;
+    height: 614px;
+    width: 50%;
+    float: left;
+}
+.description-container {
+    float: left;
+    width: 50%;
+}
+.btn-right {
+    margin-left: 0px;
+    margin-top: 42px;
+}
+.heading-right {
+    padding-left: 0px;
+}
+.btn-prev {
+    background: url(images/btn-prev.png);
+    background-repeat: no-repeat;
+    height: 16px;
+    width: 11px;
+    border: none;
+}
+.btn-next {
+    background: url(images/btn-next.png);
+    background-repeat: no-repeat;
+    width: 11px;
+    height: 16px;
+    border: none;
+    margin-left: 21px;
+}
+.page-number {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 12px;
+    line-height: 22px;
+    letter-spacing: 3px;
+}
+.slider-page {
+    padding-top: 45px;
+}
+.slider-container {
+    background: url(images/Flat-iPhone-5C-Mock-Up.png);
+    background-repeat: no-repeat;
+    background-position: 33px 103px;
+    overflow: hidden;
+    height: 558px;
+}
+.slider-container>img {
+    padding-top: 190px;
+    margin-left: 52px;
+    margin-bottom: -69px;
+}
+.fourth-container {
+    background-color: #f5f6f7;
+    height: 483px;
+}
+.slider-information {
+    width: 33%;
+    text-align: center;
+    padding-top: 165px;
+    float: left;
+}
+.heading-black {
+    font-size: 16px;
+    color: #373737;
+    font-weight: 700;
+    font-family: 'Varela Round', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+.slider-information span {
+    text-align: center;
+}
+.slider-information p {
+    margin: 0px;
+    color: #373737;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 10px;
+}
+.icon-photo-green {
+    background: url(images/photo-green.png);
+    height: 55px;
+    width: 59px;
+}
+.img-slider {
+    float: left;
+    padding-top: 95px;
+}
+.img-slider-btn {
+    padding-left: 738px;
+    margin-bottom: 5px;
+}
+.img-slider .btn-next {
+    margin-left: 8px;
+}
+.galery>img:last-child {
+    padding-left: 27px;
 }
